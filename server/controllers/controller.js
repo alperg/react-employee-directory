@@ -3,7 +3,7 @@ const moment = require("moment");
 
 module.exports = {
   getEmployees: (req, res) => {
-    axios.get("http://api.alperg.com/employees")
+    axios.get("https://alper.dev/employees")
     .then(response => {
       const today = moment();
 
